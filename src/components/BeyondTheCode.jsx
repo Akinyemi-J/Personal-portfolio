@@ -72,10 +72,10 @@ function BeyondTheCode() {
 
           <div className="grid grid-cols-2 gap-3">
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
-              <img src= "./src/assets/basketball pic 3.jpg" alt="Basketball" className="w-full h-full object-cover" />
+              <img src= "./src/assets/basketball-pic-3.jpg" alt="Basketball" className="w-full h-full object-cover" />
             </div>
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
-              <img src="./src/assets/basketball pic 1.jpg" alt="Basketball" className="w-full h-full object-cover" />
+              <img src="./src/assets/basketball-pic-1.jpg" alt="Basketball" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
