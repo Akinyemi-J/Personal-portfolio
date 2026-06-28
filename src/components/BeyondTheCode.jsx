@@ -2,6 +2,10 @@ import { useState } from 'react'
 import modeling1 from '../assets/modeling1.jpg'
 import modeling2 from '../assets/modeling2.jpeg'
 import modeling3 from '../assets/modeling3.jpg'
+import basketball1 from '../assets/basketball-pic-1.jpg'
+import basketball2 from '../assets/basketball-pic-2.jpg'
+import basketball3 from '../assets/basketball-pic-3.jpg'
+
 function BeyondTheCode() {
   const modelingPhotos = [modeling1, modeling2, modeling3]
   const [currentPhoto, setCurrentPhoto] = useState(0)
@@ -70,12 +74,15 @@ function BeyondTheCode() {
             not too different from debugging a tricky model.
           </p>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-2">
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
-              <img src= "./src/assets/basketball-pic-3.jpg" alt="Basketball" className="w-full h-full object-cover" />
+              <img src= {basketball3} alt="Basketball" className="w-full h-full object-cover" />
             </div>
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
-              <img src="./src/assets/basketball-pic-1.jpg" alt="Basketball" className="w-full h-full object-cover" />
+              <img src={basketball1} alt="Basketball" className="w-full h-full object-cover" />
+            </div>
+            <div className="h-100 rounded-xl overflow-hidden border border-white/10">
+              <img src={basketball2} alt="Basketball" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import profilePic from '../assets/profile-pic.jpg'
 function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
@@ -36,7 +37,7 @@ function Hero() {
         <div className="flex-1 flex justify-center">
           <div className="w-72 h-72 md:w-96 md:h-96 rounded-3xl bg-gradient-to-br from-violet-500/20 to-pink-500/20 border border-white/10 flex items-center justify-center">
             
-            <img src="./src/assets/profile-pic.jpg" alt="Akinyemi Jesutobi" className="w-full h-full object-cover rounded-3xl" />
+            <img src={profilePic} alt="Akinyemi Jesutobi" className="w-full h-full object-cover rounded-3xl" />
           </div>
         </div>
 
