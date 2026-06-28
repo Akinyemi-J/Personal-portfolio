@@ -74,16 +74,16 @@ function BeyondTheCode() {
             not too different from debugging a tricky model.
           </p>
 
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 gap-3">
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
               <img src= {basketball3} alt="Basketball" className="w-full h-full object-cover" />
             </div>
             <div className="h-100 rounded-xl overflow-hidden border border-white/10">
               <img src={basketball1} alt="Basketball" className="w-full h-full object-cover" />
             </div>
-            <div className="h-100 rounded-xl overflow-hidden border border-white/10">
+            {/* <div className="h-100 rounded-xl overflow-hidden border border-white/10">
               <img src={basketball2} alt="Basketball" className="w-full h-full object-cover" />
-            </div>
+            </div> */}
           </div>
         </div>
 
